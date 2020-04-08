@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Welcome to Camera Measure</string>
+<string name="app_name">Camera Measure</string>
+
+<string name="home">Home</string>
+
+    <string-array name="unit_choices">
+        <item>Unit (cms.)</item>
+        <item>Unit(in.)</item>
+    </string-array>
+
+
+<string name="save">Save</string>
+<string name="view">View</string>
+<string name="delete">Delete</string>
+<string-array name="units_array">
+    <item>Unit(mts.)</item>
+    <item>Unit(cms.)</item>
+    <item>Unit(ft.)</item>
+    <item>Unit(in.)</item>
+</string-array>
+<string name="menu_measure">Measure</string>
+<string name="history">History</string>
+<string name="Interior">Interior</string>
+<string name="Object">Object</string>
+<string name="tutorial">Tutorial</string>
+</resources>

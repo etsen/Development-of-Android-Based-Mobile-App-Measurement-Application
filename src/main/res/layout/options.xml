@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/btn_on"
+        android:layout_width="321dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="163dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="measure interior"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+
+
+    <Button
+        android:id="@+id/btn_tuto"
+        android:layout_width="321dp"
+        android:layout_height="69dp"
+        android:layout_alignBottom="@+id/btn_off"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="111dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="tutorial"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="321dp"
+        android:layout_height="69dp"
+        android:layout_alignBottom="@+id/btn_on"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="110dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="measure object"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
